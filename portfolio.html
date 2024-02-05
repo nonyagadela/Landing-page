@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #eee;
+            padding: 1em;
+            text-align: center;
+        }
+
+        section {
+            padding: 1em;
+        }
+
+        footer {
+            background-color: #d6d1dd;
+            color: #5f8080;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .social-icons {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .social-icons li {
+            margin: 0 10px;
+        }
+
+        .project-card {
+            border: 1px solid #6e828b;
+            border-radius: 8px;
+            padding: 1em;
+            margin-bottom: 1em;
+        }
+    </style>
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <header>
+        <h1>Nonya Gayathri</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#projects">Projects</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Web developer passionate about creating user-friendly, responsive websites.</p>
+        <ul class="social-icons">
+            <li><a href="https://twitter.com/i/flow/login"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.linkedin.com/login"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/login"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Project 1</h3>
+            <p>Description of Project 1.</p>
+        </div>
+        <div class="project-card">
+            <h3>Project 2</h3>
+            <p>Description of Project 2.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: 12345@gmail.com</p>
+        <p>Phone: 1234 567 890</p>
+    </section>
+
+    <footer>
+        &copy; 2024 Nonya Gayathri - Portfolio
+    </footer>
+
+</body>
+</html>
